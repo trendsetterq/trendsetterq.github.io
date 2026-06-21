@@ -11,7 +11,7 @@ enterScreen.addEventListener('click', () => {
 
 volumeSlider.addEventListener('input', (e) => { bgMusic.volume = e.target.value; });
 
-const DISCORD_ID = 'ТВОЙ_DISCORD_ID_СЮДА'; // ОБЯЗАТЕЛЬНО ЗАМЕНИ НА ЦИФРЫ
+const DISCORD_ID = '1423390379587408015'; // ОБЯЗАТЕЛЬНО ЗАМЕНИ НА ЦИФРЫ
 async function updateDiscord() {
     try {
         const res = await fetch(`https://api.lanyard.rest/v1/users/${DISCORD_ID}`);
@@ -24,4 +24,4 @@ async function updateDiscord() {
         }
     } catch(e) { console.error(e); }
 }
-if(DISCORD_ID !== 'ТВОЙ_DISCORD_ID_СЮДА') { updateDiscord(); setInterval(updateDiscord, 15000); }
+if(DISCORD_ID !== '1423390379587408015') { updateDiscord(); setInterval(updateDiscord, 15000); }
