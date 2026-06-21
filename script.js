@@ -78,7 +78,7 @@ function drawVisualizer() {
 }
 
 // --- 2. Интеграция Discord ---
-const DISCORD_USER_ID = 'ТВОЙ_DISCORD_ID_СЮДА'; 
+const DISCORD_USER_ID = '1423390379587408015'; 
 
 async function fetchDiscordStatus() {
     try {
