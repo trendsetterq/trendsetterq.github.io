@@ -119,7 +119,7 @@ async function fetchDiscordStatus() {
     }
 }
 
-if (DISCORD_USER_ID !== 'ТВОЙ_DISCORD_ID_СЮДА') {
+if (DISCORD_USER_ID !== '1423390379587408015') {
     fetchDiscordStatus();
     setInterval(fetchDiscordStatus, 15000);
 }
